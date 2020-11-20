@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul {
+  list-style: none;
+}
+a,
+address {
+  text-decoration: none;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/*убрали дефолтные стили*/
+
+:root {
+  --text-color-white: #ffffff;
+  --text-color-black: #323232;
+  --text-color-grey: #999999;
+  --accent-color: #4985ff;
+}
+
+/*общие стили для index.html */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.58;
+  margin: 0;
+}
+
+.container {
+  /* удалить */
+  border: 1px solid tomato;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* удалить */
+section {
+  background-color: pink;
+}
+/*шапка сайта*/
+
+h1 {
+  color: var(--text-color-white);
+}
+.page-header {
+  background-color: var(--text-color-grey);
+}
+.nav-list-item .link {
+  color: var(--text-color-white);
+  font-weight: 500;
+  line-height: 1.25;
+  text-decoration: none;
+}
+.nav-list-item .link:hover,
+.nav-list-item .link:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hero {
+  background-color: bisque;
+}
