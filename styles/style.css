@@ -169,6 +169,10 @@ body {
   align-items: center;
   margin-bottom: 90px;
 }
+.standarts-content img {
+  border-radius: 30px;
+  overflow: hidden;
+}
 .standarts-title {
   text-align: left;
   margin-bottom: 40px;
@@ -249,7 +253,6 @@ body {
 .projects {
   padding: 100px 0 130px;
   background-color: var(--background-color);
-
   text-align: center;
 }
 .projects-title {
@@ -261,6 +264,10 @@ body {
 .projects-img {
   display: flex;
   margin-bottom: 50px;
+}
+.projects-img img {
+  border-radius: 10px;
+  overflow: hidden;
 }
 .projects-img li:not(:last-child) {
   margin-right: 30px;
