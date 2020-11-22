@@ -340,8 +340,8 @@ body {
 /* футер */
 
 .footer {
-  margin: 0 68px;
-  padding: 70px 34px;
+  margin-left: 68px;
+  padding: 70px 0 34px;
   background-color: var(--background-color);
 }
 .footer-nav {
